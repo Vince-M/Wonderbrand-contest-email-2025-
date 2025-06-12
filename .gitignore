@@ -1,0 +1,10 @@
+Ignore the following files:
+
+.DS_Store
+*.cache
+.htaccess
+tmp
+node_modules/
+*.css.map
+*.css
+*.zip
