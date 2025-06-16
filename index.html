@@ -33,6 +33,11 @@
       td {
         padding: 0;
       }
+      h1.heading a,
+      h1.heading {
+        color: #fafafa;
+      }
+      h2.subhead a,
       h2.subhead {
       	color: #143456;
       }
@@ -46,10 +51,16 @@
         border: 0;
       }
       a {
-        color: #143456;
-        font-size: 14px;
+        /* color: #143456; */
+        /* font-size: 14px; */
         font-weight: 700;
         text-decoration: underline;
+      }
+      .btn-submit {
+        background-color: #143456;
+        color: #fafafa;
+        border: 1px solid #143456;
+        cursor: pointer;
       }
       .content {
         line-height: 20px;
@@ -337,8 +348,8 @@
                     <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0; background-color: #143456; color: #fafafa;" role="presentation">
 
                       <tr>
-                        <td  style="text-align: center; font-family: Helvetica, Arial, sans-serif; font-weight: 700;  color: #fafafa; background-color: #143456; padding: 16px 60px 8px; margin: 0;">
-                          <h1 class="heading" style="font-family: Helvetica, Arial, sans-serif; font-size: 36px; font-weight: 700; line-height: 1.2; color: #fafafa; letter-spacing: .2px; margin: 0;">Family BBQ Photo Contest!</h1>
+                        <td  style="text-align: center; font-family: Helvetica, Arial, sans-serif; font-weight: 700;  color: #fafafa; background-color: #143456; padding: 0 60px 16px; margin: 0;">
+                          <h1 class="heading" style="font-family: Helvetica, Arial, sans-serif; font-size: 36px; font-weight: 700; line-height: 1.2; color: #fafafa; letter-spacing: .2px; margin: 0;"><a href="https://www.northmart.ca/wonderbrandscontest" target="_blank">Family BBQ Photo Contest!</a></h1>
                         </td>
                       </tr>
 
@@ -442,7 +453,14 @@
                           <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0;" role="presentation">
                             <tr>
                               <td style="text-align: center; padding: 24px; vertical-align: top; font-family: Helvetica, Arial, sans-serif; width: 100%;">
-                                <h2 class="subhead" style="font-family: Helvetica, Arial, sans-serif; font-size: 26px; font-weight: 700; color: #143456; margin: 0 !important; padding: 0; line-height: 28px;">Submit your sizzling shots<br /> and show us how your family does BBQ!</h2>
+                                <h2 class="subhead" style="font-family: Helvetica, Arial, sans-serif; font-size: 26px; font-weight: 700; color: #143456; margin: 0 !important; padding: 0; line-height: 28px;"><a href="https://www.northmart.ca/wonderbrandscontest" target="_blank">Submit</a> your sizzling shots<br /> and show us how your family does BBQ!</h2>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="text-align: center; padding: 0 0 24px; vertical-align: top; font-family: Helvetica, Arial, sans-serif; width: 100%;">
+                                <a class="btn-submit" href="https://www.northmart.ca/wonderbrandscontest" target="_blank" style="font-size: 26px; font-family: Helvetica,Arial,sans-serif; font-weight: 700; color: #ffffff; text-decoration: none !important; background-color: #143456; border-top: 16px solid #143456; border-bottom: 12px solid #143456; border-right: 32px solid #143456; border-left: 32px solid #143456; border-radius: 8px; display: inline-block;">Submit photos here!</a>
+                              </td>
                             </tr>
                           </table>
 
